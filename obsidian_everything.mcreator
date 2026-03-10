@@ -317,10 +317,16 @@
       "~Blocks.OBSIDIAN"
     ],
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:ObsidianAxe",
       "~CUSTOM:ObsidianPickaxe"
     ],
     "ITEMS:obsidian_everything:obsidian_pickaxe_repair_items": [
+      "~Blocks.OBSIDIAN"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ObsidianAxe"
+    ],
+    "ITEMS:obsidian_everything:obsidian_axe_repair_items": [
+      "~Blocks.CRYING_OBSIDIAN",
       "~Blocks.OBSIDIAN"
     ]
   },
@@ -380,16 +386,15 @@
     "modid": "obsidian_everything",
     "modName": "Obsidian Everything",
     "version": "1.0.0",
-    "author": "MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "author": "TheT1redDev",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Just a mod that adds Obsidian Things - Made by TheT1redDev",
     "modElementsPackage": "net.mcreator.obsidianeverything"
   },
   "mcreatorVersion": 202500345720

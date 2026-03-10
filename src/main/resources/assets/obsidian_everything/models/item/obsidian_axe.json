@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "minecraft:item/clock_37"
+    "layer0": "obsidian_everything:item/obsidian_axe"
   }
 }

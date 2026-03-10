@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "tool",
   "definition": {
-    "toolType": "Pickaxe",
+    "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "minecraft:clock_37",
+    "texture": "obsidian_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
@@ -15,20 +15,30 @@
     },
     "creativeTabs": [
       {
+        "value": "COMBAT"
+      },
+      {
         "value": "TOOLS"
       }
     ],
     "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
+    "attackSpeed": 15.0,
+    "enchantability": 100,
+    "damageVsEntity": 20.0,
     "usageCount": 100,
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
-    "immuneToFire": false,
-    "blockDropsTier": "WOOD",
+    "repairItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.CRYING_OBSIDIAN"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

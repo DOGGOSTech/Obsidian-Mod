@@ -22,6 +22,7 @@ public class ObsidianEverythingModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_SWORD.get());
+			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_AXE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_PICKAXE.get());
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_AXE.get());
