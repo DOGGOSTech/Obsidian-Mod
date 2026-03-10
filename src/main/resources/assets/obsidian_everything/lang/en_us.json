@@ -14,5 +14,6 @@
   "advancements.get_obsidian_pickaxe.title": "Craft Obsidian Pickaxe",
   "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!",
   "advancements.how_is_that_possible.title": "How Is That Possible",
-  "advancements.how_is_that_possible.descr": "Cut Obsidian With A Stonecutter"
+  "advancements.how_is_that_possible.descr": "Cut Obsidian With A Stonecutter",
+  "item.obsidian_everything.obsidian_axe": "Obsidian Axe"
 }

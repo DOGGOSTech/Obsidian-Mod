@@ -24,6 +24,7 @@ public class ObsidianEverythingModTabs {
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_SWORD.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_PICKAXE.get());
+			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_AXE.get());
 		}
 	}
 }

@@ -289,6 +289,21 @@
         ]
       },
       "path": "~/Stick"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obsidian_everything/items/obsidian_axe.json",
+          "src/main/resources/assets/obsidian_everything/models/item/obsidian_axe.json",
+          "src/main/java/net/mcreator/obsidianeverything/item/ObsidianAxeItem.java"
+        ]
+      },
+      "path": "~/Axe"
     }
   ],
   "variable_elements": [],
@@ -302,6 +317,7 @@
       "~Blocks.OBSIDIAN"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ObsidianAxe",
       "~CUSTOM:ObsidianPickaxe"
     ],
     "ITEMS:obsidian_everything:obsidian_pickaxe_repair_items": [
@@ -326,7 +342,8 @@
       "advancements.get_obsidian_pickaxe.title": "Craft Obsidian Pickaxe",
       "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!",
       "advancements.how_is_that_possible.title": "How Is That Possible",
-      "advancements.how_is_that_possible.descr": "Cut Obsidian With A Stonecutter"
+      "advancements.how_is_that_possible.descr": "Cut Obsidian With A Stonecutter",
+      "item.obsidian_everything.obsidian_axe": "Obsidian Axe"
     }
   },
   "metadata": {
@@ -351,6 +368,10 @@
       },
       {
         "name": "Stick",
+        "children": []
+      },
+      {
+        "name": "Axe",
         "children": []
       }
     ]
