@@ -257,6 +257,38 @@
         ]
       },
       "path": "~/Stick"
+    },
+    {
+      "name": "HowIsThatPossible",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_is_that_possible",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/advancement/how_is_that_possible.json"
+        ]
+      },
+      "path": "~/Stick"
+    },
+    {
+      "name": "ObsidianStickItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_stick_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/obsidianeverything/procedures/ObsidianStickItemIsCraftedsmeltedProcedure.java"
+        ]
+      },
+      "path": "~/Stick"
     }
   ],
   "variable_elements": [],
@@ -292,7 +324,9 @@
       "advancements.break_block_with_obsidian_pick.descr": "Good Job Actually Using It!",
       "advancements.break_block_with_obsidian_pick.title": "Break A Block With An Obsidian Pickaxe",
       "advancements.get_obsidian_pickaxe.title": "Craft Obsidian Pickaxe",
-      "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!"
+      "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!",
+      "advancements.how_is_that_possible.title": "How Is That Possible",
+      "advancements.how_is_that_possible.descr": "Cut Obsidian With A Stonecutter"
     }
   },
   "metadata": {

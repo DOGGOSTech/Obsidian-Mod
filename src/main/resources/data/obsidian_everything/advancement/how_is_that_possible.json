@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "obsidian_everything:obsidian_stick"
+    },
+    "title": {
+      "translate": "advancements.how_is_that_possible.title"
+    },
+    "description": {
+      "translate": "advancements.how_is_that_possible.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "how_is_that_possible_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "obsidian_everything:obsidian_everything_acheivement"
+}
