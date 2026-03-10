@@ -243,6 +243,20 @@
         ]
       },
       "path": "~/Pickaxe"
+    },
+    {
+      "name": "ObsidianStickRecipieCrying",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_stick_recipie_crying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/advancement/recipes/obsidian_stick_recipie_crying.json",
+          "src/main/resources/data/obsidian_everything/recipe/obsidian_stick_recipie_crying.json"
+        ]
+      },
+      "path": "~/Stick"
     }
   ],
   "variable_elements": [],
@@ -277,7 +291,7 @@
       "advancements.obsidian_everything_acheivement.descr": "Obsidian gets the attention it deserves!",
       "advancements.break_block_with_obsidian_pick.descr": "Good Job Actually Using It!",
       "advancements.break_block_with_obsidian_pick.title": "Break A Block With An Obsidian Pickaxe",
-      "advancements.get_obsidian_pickaxe.title": "Get Obsidian Pickaxe",
+      "advancements.get_obsidian_pickaxe.title": "Craft Obsidian Pickaxe",
       "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!"
     }
   },

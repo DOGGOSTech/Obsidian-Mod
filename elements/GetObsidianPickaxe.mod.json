@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Get Obsidian Pickaxe",
+    "achievementName": "Craft Obsidian Pickaxe",
     "achievementDescription": "Congrats! Im proud of you!",
     "achievementIcon": {
       "value": "CUSTOM:ObsidianPickaxe"

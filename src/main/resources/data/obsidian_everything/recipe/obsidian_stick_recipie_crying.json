@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:crying_obsidian",
+  "result": {
+    "id": "obsidian_everything:obsidian_stick",
+    "count": 4
+  }
+}
