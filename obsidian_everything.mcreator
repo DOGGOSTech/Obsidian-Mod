@@ -198,6 +198,20 @@
         ]
       },
       "path": "~/Pickaxe"
+    },
+    {
+      "name": "ObsidianPickaxeRecipie",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/recipe/obsidian_pickaxe_recipie.json",
+          "src/main/resources/data/obsidian_everything/advancement/recipes/obsidian_pickaxe_recipie.json"
+        ]
+      },
+      "path": "~/Pickaxe"
     }
   ],
   "variable_elements": [],

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:crying_obsidian",
+    "b": "minecraft:obsidian",
+    "c": "obsidian_everything:obsidian_stick"
+  },
+  "result": {
+    "id": "obsidian_everything:obsidian_pickaxe",
+    "count": 1
+  }
+}
