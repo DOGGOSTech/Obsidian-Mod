@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "obsidian_everything:obsidian_axe"
+    },
+    "title": {
+      "translate": "advancements.chop_tree_with_obsidian_axe.title"
+    },
+    "description": {
+      "translate": "advancements.chop_tree_with_obsidian_axe.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chop_tree_with_obsidian_axe_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "obsidian_everything:get_obsidian_axe"
+}

@@ -318,6 +318,55 @@
         ]
       },
       "path": "~/Axe"
+    },
+    {
+      "name": "GetObsidianAxe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_obsidian_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/advancement/get_obsidian_axe.json"
+        ]
+      },
+      "path": "~/Axe"
+    },
+    {
+      "name": "ChopTreeWithObsidianAxe",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chop_tree_with_obsidian_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/obsidian_everything/advancement/chop_tree_with_obsidian_axe.json"
+        ]
+      },
+      "path": "~/Axe"
+    },
+    {
+      "name": "ObsidianAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/obsidianeverything/procedures/ObsidianAxeBlockDestroyedWithToolProcedure.java"
+        ]
+      },
+      "path": "~/Axe"
     }
   ],
   "variable_elements": [],
@@ -363,7 +412,11 @@
       "advancements.get_obsidian_pickaxe.descr": "Congrats! Im proud of you!",
       "advancements.how_is_that_possible.title": "How Is That Possible",
       "advancements.how_is_that_possible.descr": "Cut Obsidian With A Stonecutter",
-      "item.obsidian_everything.obsidian_axe": "Obsidian Axe"
+      "item.obsidian_everything.obsidian_axe": "Obsidian Axe",
+      "advancements.get_obsidian_axe.title": "Craft Obsidian Axe",
+      "advancements.get_obsidian_axe.descr": "Go Chop Some Trees!",
+      "advancements.chop_tree_with_obsidian_axe.title": "Use The Axe On A Tree",
+      "advancements.chop_tree_with_obsidian_axe.descr": "You Did It, You Used It!"
     }
   },
   "metadata": {
