@@ -20,7 +20,7 @@ public class ObsidianPickaxeItem extends Item {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 5000, 4f, 0, 100, TagKey.create(Registries.ITEM, ResourceLocation.parse("obsidian_everything:obsidian_pickaxe_repair_items")));
 
 	public ObsidianPickaxeItem(Item.Properties properties) {
-		super(properties.pickaxe(TOOL_MATERIAL, 24f, 11f).fireResistant());
+		super(properties.pickaxe(TOOL_MATERIAL, 14f, 11f).fireResistant());
 	}
 
 	@Override

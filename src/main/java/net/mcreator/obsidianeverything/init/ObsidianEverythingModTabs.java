@@ -23,6 +23,10 @@ public class ObsidianEverythingModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_SWORD.get());
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_AXE.get());
+			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_ARMOR_HELMET.get());
+			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_ARMOR_CHESTPLATE.get());
+			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_ARMOR_LEGGINGS.get());
+			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_ARMOR_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_PICKAXE.get());
 			tabData.accept(ObsidianEverythingModItems.OBSIDIAN_AXE.get());

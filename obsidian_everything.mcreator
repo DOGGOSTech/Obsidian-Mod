@@ -165,7 +165,8 @@
         "files": [
           "src/main/resources/data/obsidian_everything/advancement/obsidian_everything_acheivement.json"
         ]
-      }
+      },
+      "path": "~/Root Advancement"
     },
     {
       "name": "GiveAchievementOnFirstJoin",
@@ -183,7 +184,8 @@
         "files": [
           "src/main/java/net/mcreator/obsidianeverything/procedures/GiveAchievementOnFirstJoinProcedure.java"
         ]
-      }
+      },
+      "path": "~/Root Advancement"
     },
     {
       "name": "ObsidianPickaxeBlockDestroyedWithTool",
@@ -386,6 +388,29 @@
         ]
       },
       "path": "~/Axe"
+    },
+    {
+      "name": "ObsidianArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/obsidian_everything/models/item/obsidian_armor_leggings.json",
+          "src/main/resources/assets/obsidian_everything/equipment/obsidian_armor.json",
+          "src/main/resources/assets/obsidian_everything/items/obsidian_armor_helmet.json",
+          "src/main/resources/assets/obsidian_everything/models/item/obsidian_armor_chestplate.json",
+          "src/main/java/net/mcreator/obsidianeverything/client/renderer/item/ObsidianArmorArmor.java",
+          "src/main/resources/assets/obsidian_everything/models/item/obsidian_armor_helmet.json",
+          "src/main/resources/assets/obsidian_everything/items/obsidian_armor_chestplate.json",
+          "src/main/resources/assets/obsidian_everything/items/obsidian_armor_leggings.json",
+          "src/main/resources/assets/obsidian_everything/models/item/obsidian_armor_boots.json",
+          "src/main/java/net/mcreator/obsidianeverything/item/ObsidianArmorItem.java",
+          "src/main/resources/assets/obsidian_everything/items/obsidian_armor_boots.json"
+        ]
+      },
+      "path": "~/Armor"
     }
   ],
   "variable_elements": [],
@@ -410,6 +435,18 @@
     "ITEMS:obsidian_everything:obsidian_axe_repair_items": [
       "~Blocks.CRYING_OBSIDIAN",
       "~Blocks.OBSIDIAN"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ObsidianArmor.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:ObsidianArmor.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:ObsidianArmor.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ObsidianArmor.boots"
     ]
   },
   "tab_element_order": {},
@@ -435,7 +472,11 @@
       "advancements.get_obsidian_axe.title": "Craft Obsidian Axe",
       "advancements.get_obsidian_axe.descr": "Go Chop Some Trees!",
       "advancements.chop_tree_with_obsidian_axe.title": "Use The Axe On A Tree",
-      "advancements.chop_tree_with_obsidian_axe.descr": "You Did It, You Used It!"
+      "advancements.chop_tree_with_obsidian_axe.descr": "You Did It, You Used It!",
+      "item.obsidian_everything.obsidian_armor_chestplate": "Obsidian Armor Chestplate",
+      "item.obsidian_everything.obsidian_armor_helmet": "Obsidian Armor Helmet",
+      "item.obsidian_everything.obsidian_armor_boots": "Obsidian Armor Boots",
+      "item.obsidian_everything.obsidian_armor_leggings": "Obsidian Armor Leggings"
     }
   },
   "metadata": {
@@ -465,13 +506,21 @@
       {
         "name": "Axe",
         "children": []
+      },
+      {
+        "name": "Root Advancement",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "obsidian_everything",
     "modName": "Obsidian Everything",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "author": "TheT1redDev",
     "license": "All Rights Reserved",
     "serverSideOnly": false,

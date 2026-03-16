@@ -19,5 +19,9 @@
   "advancements.get_obsidian_axe.title": "Craft Obsidian Axe",
   "advancements.get_obsidian_axe.descr": "Go Chop Some Trees!",
   "advancements.chop_tree_with_obsidian_axe.title": "Use The Axe On A Tree",
-  "advancements.chop_tree_with_obsidian_axe.descr": "You Did It, You Used It!"
+  "advancements.chop_tree_with_obsidian_axe.descr": "You Did It, You Used It!",
+  "item.obsidian_everything.obsidian_armor_chestplate": "Obsidian Armor Chestplate",
+  "item.obsidian_everything.obsidian_armor_helmet": "Obsidian Armor Helmet",
+  "item.obsidian_everything.obsidian_armor_boots": "Obsidian Armor Boots",
+  "item.obsidian_everything.obsidian_armor_leggings": "Obsidian Armor Leggings"
 }

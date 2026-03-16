@@ -21,7 +21,7 @@ public class ObsidianAxeItem extends AxeItem {
 	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 15000, 50f, 0, 100, TagKey.create(Registries.ITEM, ResourceLocation.parse("obsidian_everything:obsidian_axe_repair_items")));
 
 	public ObsidianAxeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 19f, 11f, properties.fireResistant());
+		super(TOOL_MATERIAL, 24f, 11f, properties.fireResistant());
 	}
 
 	@Override

@@ -14,7 +14,7 @@ import net.mcreator.obsidianeverything.procedures.ObsidianSwordToolInHandTickPro
 import net.mcreator.obsidianeverything.procedures.ObsidianSwordLivingEntityIsHitWithToolProcedure;
 
 public class ObsidianSwordItem extends Item {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 100, 4f, 0, 100, TagKey.create(Registries.ITEM, ResourceLocation.parse("obsidian_everything:obsidian_sword_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 100, 35f, 0, 100, TagKey.create(Registries.ITEM, ResourceLocation.parse("obsidian_everything:obsidian_sword_repair_items")));
 
 	public ObsidianSwordItem(Item.Properties properties) {
 		super(properties.sword(TOOL_MATERIAL, 24f, 26f).fireResistant());
